@@ -9,6 +9,8 @@ so there's no need to set it again.
 
 Command line arguments can be directly configured, and when applied, the batch file is automatically edited, removing the need to manually do so.
 
+Finally, negative prompts can be loaded from pre-existing text files (if you have them), to allow easy copy-paste.
+
 ## Author(s)
 The entire code was written by me.
 ## License
