@@ -11,6 +11,10 @@ Command line arguments can be directly configured, and when applied, the batch f
 
 Finally, negative prompts can be loaded from pre-existing text files (if you have them), to allow easy copy-paste.
 
+## Download
+
+A build can be download ![here](https://drive.google.com/file/d/1T5vX9ryDA8Wdsli_j7lJkLirXyfYPWPC/view?usp=share_link)
+
 ## Author(s)
 The entire code was written by me.
 ## License
