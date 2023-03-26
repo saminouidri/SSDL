@@ -1,0 +1,35 @@
+﻿<Window x:Class="SSDL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SSDL"
+        mc:Ignorable="d"
+        Title="SSDL" Height="600" Width="800" ResizeMode="CanMinimize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="358*"/>
+            <ColumnDefinition Width="218*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="599" Margin="0,1,0,0" VerticalAlignment="Top" Width="871" Source="/bg.jpg" Grid.ColumnSpan="5"/>
+        <Label x:Name="label" Content="Settings" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" FontSize="20" Background="{x:Null}" Foreground="White" FontFamily="Microsoft JhengHei" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="textBox_args" HorizontalAlignment="Left" Margin="2,143,0,0" Text="--medvram --no-half-vae" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Grid.Column="1" Height="18" Grid.ColumnSpan="3"/>
+        <Label x:Name="label1" Content="Command Line Arguments" HorizontalAlignment="Left" Margin="16,119,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="3"/>
+        <Button x:Name="button" Content="Apply" HorizontalAlignment="Left" Margin="55,143,0,0" VerticalAlignment="Top" Width="66" Grid.Column="3" Height="18" FontSize="11" Click="button_Click"/>
+        <TextBox x:Name="textBox_path" HorizontalAlignment="Left" Margin="2,200,0,0" Text="..." TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Grid.Column="1" Height="18" Grid.ColumnSpan="3"/>
+        <Label x:Name="label1_Copy" Content="Installation Folder" HorizontalAlignment="Left" Margin="16,176,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="3"/>
+        <Button x:Name="button_Browse" Content="Browse" HorizontalAlignment="Left" Margin="55,200,0,0" VerticalAlignment="Top" Width="66" Grid.Column="3" Height="18" FontSize="11" Click="Browse_clicked"/>
+        <Label x:Name="label3" Content="VRAM Usage : NA" HorizontalAlignment="Left" Margin="8,520,0,0" VerticalAlignment="Top" Foreground="White" FontSize="24" Grid.ColumnSpan="4" Height="54" Width="330"/>
+        <Button x:Name="button1" Content="START" Grid.Column="4" HorizontalAlignment="Left" Margin="127,10,0,0" VerticalAlignment="Top" Height="35" Width="66" Background="{x:Null}" Foreground="White" FontSize="22" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Set" Grid.Column="1" HorizontalAlignment="Left" Margin="2,223,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="73" Click="button2_Click"/>
+        <Label x:Name="label2" Content="..." Grid.Column="2" HorizontalAlignment="Left" Margin="29,220,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="label2_Copy" Content="..." Grid.Column="1" HorizontalAlignment="Left" Margin="0,158,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="textBox" Grid.Column="3" Margin="166,143,52,0" Text="..." TextWrapping="Wrap" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="324" Foreground="White" Background="#FF3C3B3B"/>
+        <Button x:Name="button3" Content="Load" Grid.Column="4" HorizontalAlignment="Left" Margin="112,122,0,0" VerticalAlignment="Top" Width="54" Click="button3_Click"/>
+        <Label x:Name="label1_Copy1" Content="Negative Prompts" HorizontalAlignment="Left" Margin="166,119,0,0" VerticalAlignment="Top" Foreground="White" Grid.Column="3" RenderTransformOrigin="0.124,0.502"/>
+
+    </Grid>
+</Window>
