@@ -1,6 +1,6 @@
 ![SSDL](https://i.imgur.com/rkzAz1l.png)
 ## What is SSDL?
-SSDL, or SUROX's Stable Diffusion Launcher is a tool to manage a local Stable Diffusion Installation, without having to manually launch the webui batch script.
+SSDL, or Sami's Stable Diffusion Launcher is a tool to manage a local Stable Diffusion Installation, without having to manually launch the webui batch script.
 
 ## Usage:
 
